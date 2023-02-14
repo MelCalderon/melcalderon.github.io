@@ -1146,7 +1146,7 @@ body:not(.v-dark) .site-header .main-logo .dark-logo {
   top: 0;
   left: 0;
   background-color: var(--bg-color);
-  z-index: -1;
+  z-index: 2;
   transform: translateY(-100%);
   opacity: 0;
   visibility: visible;
@@ -3410,7 +3410,7 @@ body.v-light .logo-footer img.logo-light {
   background-image: linear-gradient(to right, #0e0e0e5c 0%, #1b1515 100%);
   padding: 4px 15px;
   color: #fff;
-  z-index: 2;
+  z-index: 0;
 }
 .cap span {
   font-size: 12px;
