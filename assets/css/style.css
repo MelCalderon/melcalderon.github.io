@@ -253,6 +253,16 @@ body:not(.v-dark) .main-root > .side-bar-full {
     padding-top: var(--box-padding-mobile);
     padding-bottom: var(--box-padding-mobile);
   }
+
+  .cap {
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    background-image: linear-gradient(to right, #0e0e0e5c 0%, #1b1515 100%);
+    padding: 4px 15px;
+    color: #fff;
+    z-index: -1;
+    }
 }
 
 @media only screen and (min-width: 992px) {
@@ -1146,7 +1156,7 @@ body:not(.v-dark) .site-header .main-logo .dark-logo {
   top: 0;
   left: 0;
   background-color: var(--bg-color);
-  z-index: 2;
+  z-index: -1;
   transform: translateY(-100%);
   opacity: 0;
   visibility: visible;
@@ -3411,7 +3421,8 @@ body.v-light .logo-footer img.logo-light {
   padding: 4px 15px;
   color: #fff;
   z-index: 0;
-}
+  }
+
 .cap span {
   font-size: 12px;
   text-transform: uppercase;
