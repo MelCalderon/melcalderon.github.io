@@ -261,7 +261,7 @@ body:not(.v-dark) .main-root > .side-bar-full {
     background-image: linear-gradient(to right, #0e0e0e5c 0%, #1b1515 100%);
     padding: 4px 15px;
     color: #fff;
-    z-index: -1;
+    display: none;
     }
 }
 
