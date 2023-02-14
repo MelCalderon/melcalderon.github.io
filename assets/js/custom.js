@@ -1775,7 +1775,7 @@
                             },
                         });
                         menuClick.set($(this).find("ul"), {display: "flex"});
-                        menuClick.to(mainNav.find("ul.extend-container > li > a ").find(" .dsn-meta-menu"), 0.5,
+                        menuClick.to(mainNav.find("ul.extend-container > li > a ").find(".dsn-title-menu , .dsn-meta-menu"), 0.5,
                             {y: -30, autoAlpha: 0, ease: Back.easeIn.config(1.7)});
                         menuClick.set(".site-header .extend-container .main-navigation ul.extend-container li", {overflow: "hidden"});
                         menuClick.staggerFromTo($(this).find("ul li"), 0.5, {x: 50, autoAlpha: 0}, {
@@ -2709,3 +2709,4 @@ $('abbr').magnificPopup({
   });
   
 
+  document.querySelector('img[src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"]').style.display = 'none'
