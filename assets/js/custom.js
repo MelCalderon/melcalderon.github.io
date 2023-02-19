@@ -1,4 +1,3 @@
-
 (function ($) {
 
 
@@ -2603,7 +2602,6 @@
 
         }
 
-        
         /**
          *  - the function that move the cursor of an input element to the end
          *
@@ -2671,42 +2669,3 @@
 
     }
 )(jQuery);
-
-
-
-
-//Certificados
-
-$('abbr').magnificPopup({
-    type: 'image',
-    mainClass: 'mfp-zoom-in',
-    tLoading: '',
-    removalDelay: 100, //delay removal by X to allow out-animation
-    callbacks: {
-      
-      imageLoadComplete: function() {
-        var self = this;
-        setTimeout(function() {
-          self.wrap.addClass('mfp-image-loaded');
-        }, 16);
-      },
-      close: function() {
-        this.wrap.removeClass('mfp-image-loaded');
-      },
-      
-      
-      
-      
-      // don't add this part, it's just to avoid caching of image
-      beforeChange: function() {
-       this.items[0].src = this.items[0].src + '?=' + Math.random(); 
-      }
-    },
-    
-    closeBtnInside: false,
-    closeOnContentClick: true,
-    midClick: true
-  });
-  
-
-  document.querySelector('img[src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"]').style.display = 'none'
