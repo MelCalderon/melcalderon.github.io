@@ -1181,7 +1181,7 @@ body:not(.v-dark) .site-header .main-logo .dark-logo {
   font-family: var(--heading-font);
 }
 .site-header .extend-container .main-navigation ul.extend-container li.dsn-active, .site-header .extend-container .main-navigation ul.extend-container li:hover {
-  color: #cccccc;
+  color: var(--smooth-color);
 }
 .site-header .extend-container .main-navigation ul.extend-container li.dsn-active .dsn-meta-menu, .site-header .extend-container .main-navigation ul.extend-container li:hover .dsn-meta-menu {
   color: var(--assistant-color);
