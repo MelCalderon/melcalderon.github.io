@@ -2812,7 +2812,7 @@ header .box-content {
 }
 .main-slider .control-nav {
   position: absolute;
-  bottom: 5%;
+  bottom: 8%;
   right: 0;
   z-index: 3;
   flex-wrap: wrap;
