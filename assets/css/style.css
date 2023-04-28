@@ -801,15 +801,7 @@ input[type=submit]:hover::before {
   input[type=submit].border-radius {
     border-radius: 30px;
   }
-  .link-custom.border-radius::before,
-  input[type=submit].border-radius::before {
-    display: none;
-  }
-  .link-custom:not(.background-reverse),
-  input[type=submit]:not(.background-reverse) {
-    color: white
-    
-  }
+
   .link-custom:before,
   input[type=submit]:before {
     content: "";
