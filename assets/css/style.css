@@ -45,7 +45,7 @@
   --bg-color: #fff;
   --assistant-color: #f1f1f1;
   --theme-color: #141414;
-  --font-color: #0009;
+  --font-color: #000000f0;
   --heading-color: #000;
   --border-color: #cccccc;
   --smooth-color: #141414;
@@ -57,7 +57,7 @@
   --bg-color: #000;
   --assistant-color: #080808;
   --theme-color: #141414;
-  --font-color: #bbb;
+  --font-color: #e4e4e4;
   --heading-color: #f98258;
   --border-color: #ffffff14;
   --smooth-color: #f9f9f9;
@@ -71,6 +71,19 @@
     --assistant-color: #101010;
     --theme-color: #141414;
     --font-color: #bbb;
+    --heading-color: #fff;
+    --border-color: rgba(255, 255, 255, 0.07);
+    --smooth-color: #f9f9f9;
+    --reverse-color: #f9f9f9;
+    --reverse-heading-color: #000;
+    color: var(--font-color);
+  }
+
+  .v-light-head-mobile, .description {
+    --bg-color: #000;
+    --assistant-color: #101010;
+    --theme-color: #141414;
+    --font-color: #080808;
     --heading-color: #fff;
     --border-color: rgba(255, 255, 255, 0.07);
     --smooth-color: #f9f9f9;
@@ -1957,7 +1970,7 @@ body:not(.v-dark) .site-header .main-logo .dark-logo {
 }
 .services .service-item .service-item-inner .title-block, .title-block-2, .services .service-item .service-item-inner .title-block + .description {
   padding-top: 15px;
-  border-top: 2.2px solid var(--border-color);
+  
 }
 .services .title-block.border-section-bottom {
   padding-top: 0;
@@ -2882,8 +2895,8 @@ header .box-content {
     .cover-bg-img {
       width: 100%;
       height: 100%;
-      object-fit: contain;
-      object-position: top;
+      object-fit: cover;
+      object-position: left;
   }
 }
 .main-slider .dsn-pagination .swiper-pagination-control {
