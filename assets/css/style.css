@@ -678,9 +678,8 @@ body:not(.v-dark) .main-root > .side-bar-full {
 }
 @media only screen and (max-width: 767px) {
   .day-night {
-    top: 50px;
-    left: 150px;
-    display: none;
+align-self: center;
+    display: flex;
   }
 }
 .day-night .night,
