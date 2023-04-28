@@ -2875,8 +2875,10 @@ header .box-content {
 }
 @media only screen and (max-width: 575px) {
   .main-slider .dsn-pagination {
-    display: none;
-  }
+    display: flex;
+    align-items: end;
+    width: 50%;
+    }
 }
 .main-slider .dsn-pagination .swiper-pagination-control {
   position: relative;
