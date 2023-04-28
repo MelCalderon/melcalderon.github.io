@@ -2879,6 +2879,13 @@ header .box-content {
     align-items: end;
     width: 50%;
     }
+
+    .cover-bg-img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      object-position: center;
+  }
 }
 .main-slider .dsn-pagination .swiper-pagination-control {
   position: relative;
