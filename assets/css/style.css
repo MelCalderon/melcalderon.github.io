@@ -2869,7 +2869,8 @@ header .box-content {
       width: 100%;
       height: 100%;
       object-fit: cover;
-      object-position: center;
+       
+      
   }
 }
 .main-slider .dsn-pagination .swiper-pagination-control {
