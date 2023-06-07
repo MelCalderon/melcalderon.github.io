@@ -1,0 +1,20 @@
+{
+  "en": {
+    "title": "Welcome to my website!",
+    "des": "This is a multilanguage website example.",
+
+    "miportafolio": "My Portfolio",
+    "welcome": "Welcome",
+    "metas": "UX/UI Designer & Web Developer",
+    "description": "In the infinitesimal zones of the eye within the minutiae of its knowledge, nothing happens, no, only the clepsydra holds this light, this feverish taut diaphanousness, made entirely of pure exaltation that through it's clear substance allows us to see."
+  },
+  "es": {
+    "title": "¡Bienvenido a mi sitio web!",
+    "des": "Este es un ejemplo de sitio web multilenguaje.",
+
+    "miportafolio": "Mi Portafolio",
+    "welcome": "Bienvenidos",
+    "metas": "Diseñador UX/UI & Desarrollador Web",
+    "description": "En las zonas ínfimas del ojo, en el nimio de su saber, no ocurre nada, no, solo la clepsidra esta luz, esta diafanidad febril, hecha completamente de pura exaltación que a través de su sustancia clara nos permite mirar."
+  }
+}

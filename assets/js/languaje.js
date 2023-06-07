@@ -1,9 +1,9 @@
-function changeLanguage(lang) {
-    var heading = document.getElementById('heading');
-    
-    if (lang === 'es') {
-      heading.textContent = '¡Hola!';
-    } else if (lang === 'en') {
-      heading.textContent = 'Hello!';
-    }
-  }
+function cambiarTextoeng() {
+  var boton = document.getElementById("btn-eng");
+  boton.innerHTML = "English";
+}
+
+function cambiarTextoesp() {
+  var boton = document.getElementById("btn-esp");
+  boton.innerHTML = "Español";
+}

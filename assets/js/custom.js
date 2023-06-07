@@ -960,7 +960,7 @@
 
 
     function ContactModel($off) {
-        const btn = $('.contact-btn');
+        const btn = $('.languaje-btn');
         if ($off)
             btn.off('click');
 
@@ -2300,8 +2300,8 @@
 
                     option["breakpoints"] = {
                         768: {
-                            slidesPerView: option.slidesPerView >= 1 ? (option.slidesPerView > 1.5 ? 2 : 1.30) : 1,
-                            spaceBetween: option.slidesPerView > 1 ? (option.spaceBetween > 21 ? 20 : option.spaceBetween) : 0,
+                            slidesPerView: option.slidesPerSee>= 1 ? (option.slidesPerSee> 1.5 ? 2 : 1.30) : 1,
+                            spaceBetween: option.slidesPerSee> 1 ? (option.spaceBetween > 21 ? 20 : option.spaceBetween) : 0,
                         },
                         992: {
                             slidesPerView: option.slidesPerView,
