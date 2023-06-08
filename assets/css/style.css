@@ -1229,7 +1229,7 @@ body:not(.v-dark) .site-header .main-logo .dark-logo {
 @media only screen and (min-width: 992px) {
   .site-header .extend-container .main-navigation ul.extend-container li.dsn-drop-down > a:after {
     content: "";
-    background-image: url("../img/right.svg");
+    background-image: url("img/right.svg");
     background-size: 17px;
     height: 17px;
     width: 17px;
