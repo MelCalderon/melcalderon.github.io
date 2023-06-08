@@ -12,7 +12,6 @@
      * Execute data after ajax
      */
     async function reloadAjax($off) {
-
         if ($off)
             dsnGrid.executeStyle();
 
@@ -29,7 +28,7 @@
             window.$effectScroll = await effectScroller();
             window.$animate = await effectAnimate();
             await navMenu().init();
-            await dsnGrid.removeWhiteSpace(".site-header ul.extend-container li > a");
+            await dsnGrid.removeWhiteSpace(".site-header ul.extend-container li >");  /**lleva "a" después de li */
             await changeStyle();
         }
         if ($off) {
