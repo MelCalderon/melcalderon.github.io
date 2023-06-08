@@ -2,7 +2,7 @@
 (function ($) {
 
 
-    "use strict";
+   "use strict";
     preloader();
     mouseCirMove();
     dsnGrid.executeStyle();
@@ -28,7 +28,7 @@
             window.$effectScroll = await effectScroller();
             window.$animate = await effectAnimate();
             await navMenu().init();
-            await dsnGrid.removeWhiteSpace(".site-header ul.extend-container li >");  /**lleva "a" después de li */
+            await dsnGrid.removeWhiteSpace(".site-header ul.extend-container > a"); 
             await changeStyle();
         }
         if ($off) {
