@@ -3437,6 +3437,9 @@ label {
   .footer .d-grid .footer-item {
     text-align: center;
   }
+  .footer-item-2{
+    color: var(--bg-color);
+  }
 }
 .footer .logo-footer {
   width: 70px;
