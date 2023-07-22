@@ -224,7 +224,7 @@
                     <div class="hero-img p-absolute w-100  h-100 before-z-index" data-overlay="5" data-dsn-ajax="img">
                         <div class="image-bg w-100 h-100 " data-overlay="5"
                                              data-swiper-parallax="100%">
-                                             <img class="cover-bg-img dark-logo"  data-dsn-position=" 50%"
+                                             <img class="cover-bg-img dark-logo" style="display: none;"  data-dsn-position=" 50%"
                                              src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                                              data-dsn-src="assets/img/home/portfolio-glitch.gif" style="opacity: 0.6;" alt="">
                         </div>
@@ -249,26 +249,39 @@
                                 </p>
                             
                         </div>
-                        <a href="https://wa.link/f1xr3g"
-                            class="link-custom v-light background-main image-zoom move-circle mt-30"
-                            data-dsn-ajax="slider" data-dsn="parallax" style="color: rgb(245, 84, 63); background-color: #f9f9f9e1;">
-                            Contacto
-                        </a>
+                        <br>
+                        <br>
+                        <a class="dsn-link-paginate text-transform-upper words chars splitting" href="#more">
+                            <div class="control-nav p-absolute w-100  d-flex dsn-container align-items-center  justify-content-between" style="padding-left: 0 !important; display: inline-flex;">
+                                <div style=" transform: rotate(-90deg);">
+                                    <div class="prev-container">
+                                        <div class="container-inner">
+                                            <div class="triangle"></div>
+                                            <svg class="circle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                                <g class="circle-wrap" fill="none" stroke-width="1" stroke-linejoin="round"
+                                                   stroke-miterlimit="10">
+                                                    <circle cx="12" cy="12" r="10.5"></circle>
+                                                </g>
+                                            </svg>
+                                        </div>
+                                    </div>        
+                                </div>
+                            </div> 
+                            </a>
                         </div>
-
                     </div>
 
                 </header>
                 <!-- ========== End Header ========== -->
 
-                <div class="wrapper ">
+                <div id="more" class="wrapper ">
 
                     <!-- ========== Work Section ========== -->
                     <section class="our-work work-2 dsn-container dsn-filter p-relative section-margin">
 
                         <div class="filtering d-flex justify-content-between mb-50">
                             <h3 class="title-block border-before">Proyectos Sobresalientes</h3>
-                            <div class="filtering-wrap w-auto">
+                            <div class="filtering-wrap w-auto" id="more">
                                 <div class="filtering">
                                     <div class="selector"></div>
                                     <button type="button" data-filter="*" class="active">All</button>
