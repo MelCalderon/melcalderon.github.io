@@ -66,17 +66,17 @@
 }
 
 :root {
-  --body-font: "Bebas Neue", sans-serif;
+  --body-font: 'Plus Jakarta Sans', sans-serif;
   --heading-font: "Bebas Neue", sans-serif;
   --font-code: Menlo, monaco, Consolas, Lucida Console, monospace;
   --font-pre: "Bebas Neue", Oswald, monospace;
   --mod-color: #fff;
-  --font-size-base: 16px;
-  --font-size-h1: 40px;
-  --font-size-h2: 35px;
-  --font-size-h3: 30px;
-  --font-size-h4: 25px;
-  --font-size-h5: 22px;
+  --font-size-base: 13px;
+  --font-size-h1: 43px;
+  --font-size-h2: 37px;
+  --font-size-h3: 32px;
+  --font-size-h4: 26px;
+  --font-size-h5: 24px;
   --font-size-h6: 16px;
   --menu-size: 12px;
   --line-height-base: 1.4;
@@ -1102,10 +1102,11 @@ body:not(.v-dark) .site-header .main-logo .dark-logo {
 }
 .site-header .container-content .title-line,
 .site-header .container-content p.title-line {
-  color: var(--theme-color);
+  
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 100;
   margin-bottom: 10px;
+  font-family: var(--heading-font);
 }
 .site-header .container-content .nav-social ul li {
   font-size: 14px;
