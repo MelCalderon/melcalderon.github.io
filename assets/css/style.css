@@ -1001,12 +1001,12 @@ body:not(.v-dark) .site-header .main-logo .dark-logo {
   display: inherit;
 }
 .site-header .menu-icon .text-menu {
-  top: -4px;
-  width: 45px;
+  top: -7.5px;
+  width: 58px;
   color: var(--heading-color);
   opacity: 0.9;
-  font-size: 13px;
-  font-weight: 600;
+  font-size: 18px !important;
+  font-weight: 500;
 }
 .site-header .menu-icon .text-menu > div {
   left: 0;
