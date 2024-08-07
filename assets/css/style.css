@@ -1538,7 +1538,7 @@ body:not(.v-dark) .site-header .main-logo .dark-logo {
   }
   body .site-header .menu-icon .text-menu {
     display: flex;
-    font-size: 14px;
+    font-size: 18px !important;
     letter-spacing: 2.3px;
   }
 }
