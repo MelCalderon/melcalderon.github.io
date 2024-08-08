@@ -51,6 +51,7 @@
   --smooth-color: #141414;
   --reverse-color: #141414;
   --reverse-heading-color: #fff;
+  --reverse-index:  #000 ;
 }
 
 :root .v-dark, :root .v-dark-head {
@@ -63,6 +64,7 @@
   --smooth-color: #f9f9f9;
   --reverse-color: #f9f9f9;
   --reverse-heading-color: #000;
+  --reverse-index:  #fff;
 }
 
 :root {
