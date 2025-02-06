@@ -2300,9 +2300,10 @@ body:not(.v-dark) .site-header .main-logo .dark-logo {
 @media only screen and (max-width: 620px) {  
 
   .intro-project-2 {
-    margin-top: -65% !important;
+    margin-top: -35rem !important;
   }
 }
+
 .intro-project .project-info li {
   margin-bottom: 20px;
 }
