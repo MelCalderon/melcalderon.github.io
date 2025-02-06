@@ -2296,6 +2296,13 @@ body:not(.v-dark) .site-header .main-logo .dark-logo {
     flex-direction: column;
   }
 }
+
+@media only screen and (max-width: 620px) {  
+
+  .intro-project-2 {
+    margin-top: -350px !important;
+  }
+}
 .intro-project .project-info li {
   margin-bottom: 20px;
 }
